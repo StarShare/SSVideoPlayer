@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7B93F8C212BBDC900A8B02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93F8B212BBDC900A8B02B /* AppDelegate.m */; };
+		B7B93F8F212BBDC900A8B02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93F8E212BBDC900A8B02B /* ViewController.m */; };
+		B7B93F92212BBDC900A8B02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B93F90212BBDC900A8B02B /* Main.storyboard */; };
+		B7B93F94212BBDCA00A8B02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B93F93212BBDCA00A8B02B /* Assets.xcassets */; };
+		B7B93F97212BBDCA00A8B02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B93F95212BBDCA00A8B02B /* LaunchScreen.storyboard */; };
+		B7B93F9A212BBDCA00A8B02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93F99212BBDCA00A8B02B /* main.m */; };
+		B7B93FA4212BBDCA00A8B02B /* SSVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FA3212BBDCA00A8B02B /* SSVideoPlayerTests.m */; };
+		B7B93FAF212BBDCA00A8B02B /* SSVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FAE212BBDCA00A8B02B /* SSVideoPlayerUITests.m */; };
+		B7B93FDD212BBDFD00A8B02B /* SSMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FBD212BBDFD00A8B02B /* SSMoviePlayerViewController.m */; };
+		B7B93FDE212BBDFD00A8B02B /* SSPlayerLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FC1212BBDFD00A8B02B /* SSPlayerLoader.m */; };
+		B7B93FDF212BBDFD00A8B02B /* SSPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FC2212BBDFD00A8B02B /* SSPlayerController.m */; };
+		B7B93FE0212BBDFD00A8B02B /* SSPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FC3212BBDFD00A8B02B /* SSPlayer.m */; };
+		B7B93FE1212BBDFD00A8B02B /* SSBufferTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FC6212BBDFD00A8B02B /* SSBufferTimer.m */; };
+		B7B93FE2212BBDFD00A8B02B /* SSAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FC9212BBDFD00A8B02B /* SSAVPlayer.m */; };
+		B7B93FE3212BBDFD00A8B02B /* SSPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FCD212BBDFD00A8B02B /* SSPlayerItem.m */; };
+		B7B93FE4212BBDFD00A8B02B /* SSAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FD0212BBDFD00A8B02B /* SSAsset.m */; };
+		B7B93FE5212BBDFD00A8B02B /* SSPlayerUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FD2212BBDFD00A8B02B /* SSPlayerUserInfo.m */; };
+		B7B93FE6212BBDFD00A8B02B /* SSPlayerSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FD6212BBDFD00A8B02B /* SSPlayerSliderView.m */; };
+		B7B93FE7212BBDFD00A8B02B /* SSPlayerActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FD9212BBDFD00A8B02B /* SSPlayerActivityIndicatorView.m */; };
+		B7B93FE8212BBDFD00A8B02B /* SSPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B93FDA212BBDFD00A8B02B /* SSPlayerControlView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7B93FA0212BBDCA00A8B02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B93F7F212BBDC900A8B02B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B93F86212BBDC900A8B02B;
+			remoteInfo = SSVideoPlayer;
+		};
+		B7B93FAB212BBDCA00A8B02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B93F7F212BBDC900A8B02B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B93F86212BBDC900A8B02B;
+			remoteInfo = SSVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7B93F87212BBDC900A8B02B /* SSVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B93F8A212BBDC900A8B02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7B93F8B212BBDC900A8B02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7B93F8D212BBDC900A8B02B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7B93F8E212BBDC900A8B02B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7B93F91212BBDC900A8B02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7B93F93212BBDCA00A8B02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B93F96212BBDCA00A8B02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7B93F98212BBDCA00A8B02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B93F99212BBDCA00A8B02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7B93F9F212BBDCA00A8B02B /* SSVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B93FA3212BBDCA00A8B02B /* SSVideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSVideoPlayerTests.m; sourceTree = "<group>"; };
+		B7B93FA5212BBDCA00A8B02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B93FAA212BBDCA00A8B02B /* SSVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B93FAE212BBDCA00A8B02B /* SSVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSVideoPlayerUITests.m; sourceTree = "<group>"; };
+		B7B93FB0212BBDCA00A8B02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B93FBD212BBDFD00A8B02B /* SSMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMoviePlayerViewController.m; sourceTree = "<group>"; };
+		B7B93FC0212BBDFD00A8B02B /* SSPlayerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerLoader.h; sourceTree = "<group>"; };
+		B7B93FC1212BBDFD00A8B02B /* SSPlayerLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayerLoader.m; sourceTree = "<group>"; };
+		B7B93FC2212BBDFD00A8B02B /* SSPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayerController.m; sourceTree = "<group>"; };
+		B7B93FC3212BBDFD00A8B02B /* SSPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayer.m; sourceTree = "<group>"; };
+		B7B93FC5212BBDFD00A8B02B /* SSBufferTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBufferTimer.h; sourceTree = "<group>"; };
+		B7B93FC6212BBDFD00A8B02B /* SSBufferTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBufferTimer.m; sourceTree = "<group>"; };
+		B7B93FC8212BBDFD00A8B02B /* SSAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAVPlayer.h; sourceTree = "<group>"; };
+		B7B93FC9212BBDFD00A8B02B /* SSAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAVPlayer.m; sourceTree = "<group>"; };
+		B7B93FCA212BBDFD00A8B02B /* SSPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerDelegate.h; sourceTree = "<group>"; };
+		B7B93FCB212BBDFD00A8B02B /* SSPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerController.h; sourceTree = "<group>"; };
+		B7B93FCD212BBDFD00A8B02B /* SSPlayerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayerItem.m; sourceTree = "<group>"; };
+		B7B93FCE212BBDFD00A8B02B /* SSAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAsset.h; sourceTree = "<group>"; };
+		B7B93FCF212BBDFD00A8B02B /* SSPlayerUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerUserInfo.h; sourceTree = "<group>"; };
+		B7B93FD0212BBDFD00A8B02B /* SSAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAsset.m; sourceTree = "<group>"; };
+		B7B93FD1212BBDFD00A8B02B /* SSPlayerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerItem.h; sourceTree = "<group>"; };
+		B7B93FD2212BBDFD00A8B02B /* SSPlayerUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayerUserInfo.m; sourceTree = "<group>"; };
+		B7B93FD3212BBDFD00A8B02B /* SSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayer.h; sourceTree = "<group>"; };
+		B7B93FD6212BBDFD00A8B02B /* SSPlayerSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayerSliderView.m; sourceTree = "<group>"; };
+		B7B93FD7212BBDFD00A8B02B /* SSPlayerActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerActivityIndicatorView.h; sourceTree = "<group>"; };
+		B7B93FD8212BBDFD00A8B02B /* SSPlayerSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerSliderView.h; sourceTree = "<group>"; };
+		B7B93FD9212BBDFD00A8B02B /* SSPlayerActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayerActivityIndicatorView.m; sourceTree = "<group>"; };
+		B7B93FDA212BBDFD00A8B02B /* SSPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPlayerControlView.m; sourceTree = "<group>"; };
+		B7B93FDB212BBDFD00A8B02B /* SSPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPlayerControlView.h; sourceTree = "<group>"; };
+		B7B93FDC212BBDFD00A8B02B /* SSMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMoviePlayerViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B93F84212BBDC900A8B02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B93F9C212BBDCA00A8B02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B93FA7212BBDCA00A8B02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7B93F7E212BBDC900A8B02B = {
+			isa = PBXGroup;
+			children = (
+				B7B93F89212BBDC900A8B02B /* SSVideoPlayer */,
+				B7B93FA2212BBDCA00A8B02B /* SSVideoPlayerTests */,
+				B7B93FAD212BBDCA00A8B02B /* SSVideoPlayerUITests */,
+				B7B93F88212BBDC900A8B02B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B93F88212BBDC900A8B02B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93F87212BBDC900A8B02B /* SSVideoPlayer.app */,
+				B7B93F9F212BBDCA00A8B02B /* SSVideoPlayerTests.xctest */,
+				B7B93FAA212BBDCA00A8B02B /* SSVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B93F89212BBDC900A8B02B /* SSVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FBC212BBDFD00A8B02B /* Src */,
+				B7B93F8A212BBDC900A8B02B /* AppDelegate.h */,
+				B7B93F8B212BBDC900A8B02B /* AppDelegate.m */,
+				B7B93F8D212BBDC900A8B02B /* ViewController.h */,
+				B7B93F8E212BBDC900A8B02B /* ViewController.m */,
+				B7B93F90212BBDC900A8B02B /* Main.storyboard */,
+				B7B93F93212BBDCA00A8B02B /* Assets.xcassets */,
+				B7B93F95212BBDCA00A8B02B /* LaunchScreen.storyboard */,
+				B7B93F98212BBDCA00A8B02B /* Info.plist */,
+				B7B93F99212BBDCA00A8B02B /* main.m */,
+			);
+			path = SSVideoPlayer;
+			sourceTree = "<group>";
+		};
+		B7B93FA2212BBDCA00A8B02B /* SSVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FA3212BBDCA00A8B02B /* SSVideoPlayerTests.m */,
+				B7B93FA5212BBDCA00A8B02B /* Info.plist */,
+			);
+			path = SSVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		B7B93FAD212BBDCA00A8B02B /* SSVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FAE212BBDCA00A8B02B /* SSVideoPlayerUITests.m */,
+				B7B93FB0212BBDCA00A8B02B /* Info.plist */,
+			);
+			path = SSVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		B7B93FBC212BBDFD00A8B02B /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FBD212BBDFD00A8B02B /* SSMoviePlayerViewController.m */,
+				B7B93FBE212BBDFD00A8B02B /* Classes */,
+				B7B93FDC212BBDFD00A8B02B /* SSMoviePlayerViewController.h */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		B7B93FBE212BBDFD00A8B02B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FBF212BBDFD00A8B02B /* Loder */,
+				B7B93FC2212BBDFD00A8B02B /* SSPlayerController.m */,
+				B7B93FC3212BBDFD00A8B02B /* SSPlayer.m */,
+				B7B93FC4212BBDFD00A8B02B /* Utils */,
+				B7B93FC7212BBDFD00A8B02B /* AVPlayer */,
+				B7B93FCA212BBDFD00A8B02B /* SSPlayerDelegate.h */,
+				B7B93FCB212BBDFD00A8B02B /* SSPlayerController.h */,
+				B7B93FCC212BBDFD00A8B02B /* Model */,
+				B7B93FD3212BBDFD00A8B02B /* SSPlayer.h */,
+				B7B93FD4212BBDFD00A8B02B /* Control */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B7B93FBF212BBDFD00A8B02B /* Loder */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FC0212BBDFD00A8B02B /* SSPlayerLoader.h */,
+				B7B93FC1212BBDFD00A8B02B /* SSPlayerLoader.m */,
+			);
+			path = Loder;
+			sourceTree = "<group>";
+		};
+		B7B93FC4212BBDFD00A8B02B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FC5212BBDFD00A8B02B /* SSBufferTimer.h */,
+				B7B93FC6212BBDFD00A8B02B /* SSBufferTimer.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B7B93FC7212BBDFD00A8B02B /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FC8212BBDFD00A8B02B /* SSAVPlayer.h */,
+				B7B93FC9212BBDFD00A8B02B /* SSAVPlayer.m */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		B7B93FCC212BBDFD00A8B02B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FCD212BBDFD00A8B02B /* SSPlayerItem.m */,
+				B7B93FCE212BBDFD00A8B02B /* SSAsset.h */,
+				B7B93FCF212BBDFD00A8B02B /* SSPlayerUserInfo.h */,
+				B7B93FD0212BBDFD00A8B02B /* SSAsset.m */,
+				B7B93FD1212BBDFD00A8B02B /* SSPlayerItem.h */,
+				B7B93FD2212BBDFD00A8B02B /* SSPlayerUserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7B93FD4212BBDFD00A8B02B /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FD5212BBDFD00A8B02B /* CustomUI */,
+				B7B93FDA212BBDFD00A8B02B /* SSPlayerControlView.m */,
+				B7B93FDB212BBDFD00A8B02B /* SSPlayerControlView.h */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		B7B93FD5212BBDFD00A8B02B /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				B7B93FD6212BBDFD00A8B02B /* SSPlayerSliderView.m */,
+				B7B93FD7212BBDFD00A8B02B /* SSPlayerActivityIndicatorView.h */,
+				B7B93FD8212BBDFD00A8B02B /* SSPlayerSliderView.h */,
+				B7B93FD9212BBDFD00A8B02B /* SSPlayerActivityIndicatorView.m */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B93F86212BBDC900A8B02B /* SSVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B93FB3212BBDCA00A8B02B /* Build configuration list for PBXNativeTarget "SSVideoPlayer" */;
+			buildPhases = (
+				B7B93F83212BBDC900A8B02B /* Sources */,
+				B7B93F84212BBDC900A8B02B /* Frameworks */,
+				B7B93F85212BBDC900A8B02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSVideoPlayer;
+			productName = SSVideoPlayer;
+			productReference = B7B93F87212BBDC900A8B02B /* SSVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7B93F9E212BBDCA00A8B02B /* SSVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B93FB6212BBDCA00A8B02B /* Build configuration list for PBXNativeTarget "SSVideoPlayerTests" */;
+			buildPhases = (
+				B7B93F9B212BBDCA00A8B02B /* Sources */,
+				B7B93F9C212BBDCA00A8B02B /* Frameworks */,
+				B7B93F9D212BBDCA00A8B02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B93FA1212BBDCA00A8B02B /* PBXTargetDependency */,
+			);
+			name = SSVideoPlayerTests;
+			productName = SSVideoPlayerTests;
+			productReference = B7B93F9F212BBDCA00A8B02B /* SSVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7B93FA9212BBDCA00A8B02B /* SSVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B93FB9212BBDCA00A8B02B /* Build configuration list for PBXNativeTarget "SSVideoPlayerUITests" */;
+			buildPhases = (
+				B7B93FA6212BBDCA00A8B02B /* Sources */,
+				B7B93FA7212BBDCA00A8B02B /* Frameworks */,
+				B7B93FA8212BBDCA00A8B02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B93FAC212BBDCA00A8B02B /* PBXTargetDependency */,
+			);
+			name = SSVideoPlayerUITests;
+			productName = SSVideoPlayerUITests;
+			productReference = B7B93FAA212BBDCA00A8B02B /* SSVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B93F7F212BBDC900A8B02B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = God;
+				TargetAttributes = {
+					B7B93F86212BBDC900A8B02B = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					B7B93F9E212BBDCA00A8B02B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B7B93F86212BBDC900A8B02B;
+					};
+					B7B93FA9212BBDCA00A8B02B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B7B93F86212BBDC900A8B02B;
+					};
+				};
+			};
+			buildConfigurationList = B7B93F82212BBDC900A8B02B /* Build configuration list for PBXProject "SSVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B93F7E212BBDC900A8B02B;
+			productRefGroup = B7B93F88212BBDC900A8B02B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B93F86212BBDC900A8B02B /* SSVideoPlayer */,
+				B7B93F9E212BBDCA00A8B02B /* SSVideoPlayerTests */,
+				B7B93FA9212BBDCA00A8B02B /* SSVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B93F85212BBDC900A8B02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B93F97212BBDCA00A8B02B /* LaunchScreen.storyboard in Resources */,
+				B7B93F94212BBDCA00A8B02B /* Assets.xcassets in Resources */,
+				B7B93F92212BBDC900A8B02B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B93F9D212BBDCA00A8B02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B93FA8212BBDCA00A8B02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B93F83212BBDC900A8B02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B93FE8212BBDFD00A8B02B /* SSPlayerControlView.m in Sources */,
+				B7B93FDF212BBDFD00A8B02B /* SSPlayerController.m in Sources */,
+				B7B93F8F212BBDC900A8B02B /* ViewController.m in Sources */,
+				B7B93FDE212BBDFD00A8B02B /* SSPlayerLoader.m in Sources */,
+				B7B93FE1212BBDFD00A8B02B /* SSBufferTimer.m in Sources */,
+				B7B93FE0212BBDFD00A8B02B /* SSPlayer.m in Sources */,
+				B7B93FE3212BBDFD00A8B02B /* SSPlayerItem.m in Sources */,
+				B7B93F9A212BBDCA00A8B02B /* main.m in Sources */,
+				B7B93FE6212BBDFD00A8B02B /* SSPlayerSliderView.m in Sources */,
+				B7B93FDD212BBDFD00A8B02B /* SSMoviePlayerViewController.m in Sources */,
+				B7B93F8C212BBDC900A8B02B /* AppDelegate.m in Sources */,
+				B7B93FE2212BBDFD00A8B02B /* SSAVPlayer.m in Sources */,
+				B7B93FE4212BBDFD00A8B02B /* SSAsset.m in Sources */,
+				B7B93FE7212BBDFD00A8B02B /* SSPlayerActivityIndicatorView.m in Sources */,
+				B7B93FE5212BBDFD00A8B02B /* SSPlayerUserInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B93F9B212BBDCA00A8B02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B93FA4212BBDCA00A8B02B /* SSVideoPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B93FA6212BBDCA00A8B02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B93FAF212BBDCA00A8B02B /* SSVideoPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7B93FA1212BBDCA00A8B02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B93F86212BBDC900A8B02B /* SSVideoPlayer */;
+			targetProxy = B7B93FA0212BBDCA00A8B02B /* PBXContainerItemProxy */;
+		};
+		B7B93FAC212BBDCA00A8B02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B93F86212BBDC900A8B02B /* SSVideoPlayer */;
+			targetProxy = B7B93FAB212BBDCA00A8B02B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7B93F90212BBDC900A8B02B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7B93F91212BBDC900A8B02B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7B93F95212BBDCA00A8B02B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7B93F96212BBDCA00A8B02B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7B93FB1212BBDCA00A8B02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7B93FB2212BBDCA00A8B02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B93FB4212BBDCA00A8B02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				INFOPLIST_FILE = SSVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idoool.tools.SSVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B93FB5212BBDCA00A8B02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				INFOPLIST_FILE = SSVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idoool.tools.SSVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7B93FB7212BBDCA00A8B02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				INFOPLIST_FILE = SSVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idoool.tools.SSVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSVideoPlayer.app/SSVideoPlayer";
+			};
+			name = Debug;
+		};
+		B7B93FB8212BBDCA00A8B02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				INFOPLIST_FILE = SSVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idoool.tools.SSVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSVideoPlayer.app/SSVideoPlayer";
+			};
+			name = Release;
+		};
+		B7B93FBA212BBDCA00A8B02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				INFOPLIST_FILE = SSVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idoool.tools.SSVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSVideoPlayer;
+			};
+			name = Debug;
+		};
+		B7B93FBB212BBDCA00A8B02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				INFOPLIST_FILE = SSVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idoool.tools.SSVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B93F82212BBDC900A8B02B /* Build configuration list for PBXProject "SSVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B93FB1212BBDCA00A8B02B /* Debug */,
+				B7B93FB2212BBDCA00A8B02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B93FB3212BBDCA00A8B02B /* Build configuration list for PBXNativeTarget "SSVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B93FB4212BBDCA00A8B02B /* Debug */,
+				B7B93FB5212BBDCA00A8B02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B93FB6212BBDCA00A8B02B /* Build configuration list for PBXNativeTarget "SSVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B93FB7212BBDCA00A8B02B /* Debug */,
+				B7B93FB8212BBDCA00A8B02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B93FB9212BBDCA00A8B02B /* Build configuration list for PBXNativeTarget "SSVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B93FBA212BBDCA00A8B02B /* Debug */,
+				B7B93FBB212BBDCA00A8B02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B93F7F212BBDC900A8B02B /* Project object */;
+}
